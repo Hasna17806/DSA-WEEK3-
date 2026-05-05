@@ -86,26 +86,28 @@
 
 //--------------------Merge function code---------------------------
 
-function merge(left, right){
+// function merge(left, right){
 
-    let result = [];
-    let i = 0;
-    let j = 0;
+//     let result = [];
+//     let i = 0;
+//     let j = 0;
 
-    while(i < left.length && j < right.length){
+//     while(i < left.length && j < right.length){
 
-        if(left[i] < right[j]){
-            result.push(left[i]);
-            i++;
-        } else {
-            result.push(right[j]);
-            j++;
-        }
-    }
+//         if(left[i] < right[j]){
+//             result.push(left[i]);
+//             i++;
+//         } else {
+//             result.push(right[j]);
+//             j++;
+//         }
+//     }
 
-    return result
-        .concat(left.slice(i))
-        .concat(right.slice(j));
-}
+//     return result
+//         .concat(left.slice(i))
+//         .concat(right.slice(j));
+// }
 
-console.log(merge([2,3,1],[4,9,5]));
+
+// didnt getting output
+
